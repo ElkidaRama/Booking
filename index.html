@@ -71,9 +71,20 @@
                 placeholder="Check-in date - Check-out date"
               />
             </div>
+            
             <div class="col">
               <input type="text" class="form-control" placeholder="Guests" />
             </div>
+            <form class="row" onsubmit="searchByTitle(event)">
+  <div class="col">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Search by title..."
+      id="keyword"
+      required
+    />
+  </div>
             <div class="col">
               <button type="submit" class="btn btn-primary w-100">
                 Search
